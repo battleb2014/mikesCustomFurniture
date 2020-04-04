@@ -4,10 +4,10 @@ const Nav = () => {
     return (
         <div className='nav'>
             <ul>
-                <li>Home</li>
-                <li>Gallery</li>
-                <li>Store</li>
-                <li>Contact Us</li>
+                <li><button onClick= '#'>Home</button></li>
+                <li><button onClick= '#'>Gallery</button></li>
+                <li><button onClick= '#'>Store</button></li>
+                <li><button onClick= '#'>Contact Us</button></li>
             </ul>
         </div>
     );

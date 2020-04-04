@@ -13,8 +13,16 @@ body {
   justify-content: center;
 }
 
-ul {
-  list-style-type: none;
+button {
+  width: 8em;
+  font-size: large;
+  background-color: transparent;
+  border: none;
+}
+
+button:hover {
+  color: blue;
+  cursor: pointer;
 }
 
 .name {
@@ -33,4 +41,14 @@ ul {
   display: inline-flex;
   border-top: solid 1px black;
   border-bottom: solid 1px black;
+}
+
+.nav ul {
+  display: flex;
+  padding: 1em;
+  list-style-type: none;
+}
+
+.nav li {
+  margin-right: 1.5em;
 }
