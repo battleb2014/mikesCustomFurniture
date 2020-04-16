@@ -1,47 +1,54 @@
 * {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-  text-align: center;
-  justify-content: center;
-  height: 100vh;
-  width: 100vw;
-  background-image: url(./images/background.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+	text-align: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+	background-image: url(./images/background.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 .container {
-  position: fixed;
-  width: 100vw;
+	position: fixed;
+	width: 100vw;
 }
 
 .header {
-  width: 100vw;
-  margin: 2em auto;
+	width: 100vw;
+	margin: 3em auto;
 }
 
 .navBar {
-  display: inline-flex;
-  margin-top: 2.5em;
-  padding: 1em;
-  justify-content: center;
-  width: 50vw;
-  border-top: solid 1.5px black;
-  border-bottom: solid 1.5px black;
+	display: inline-flex;
+	margin-top: 2.5em;
+	padding: 1em;
+	justify-content: center;
+	width: 50vw;
+	border-top: solid 1.5px black;
+	border-bottom: solid 1.5px black;
 }
 
-.navBar li {
-  display: inline;
-  font-size: large;
-  margin: 0 2.5em;
-  list-style-type: none;
+.link {
+	display: inline;
+	color: black;
+	text-decoration: none;
+	font-size: large;
+	font-weight: bold;
+	margin: 0 2.5em;
+	list-style-type: none;
+}
+
+.link:hover {
+	text-shadow: 2px 2px #adadad;
 }
 
 .home {
-  height: 2000px;
+	height: 2000px;
 }
