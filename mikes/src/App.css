@@ -15,19 +15,15 @@ body {
 	background-attachment: fixed;
 }
 
-.container {
-	position: fixed;
-	width: 100vw;
-}
-
 .header {
 	width: 100vw;
-	margin: 3em auto;
+	margin: 5em auto;
 }
 
 .navBar {
 	display: inline-flex;
 	margin-top: 2.5em;
+	margin-bottom: 3em;
 	padding: 1em;
 	justify-content: center;
 	width: 50vw;
@@ -35,7 +31,11 @@ body {
 	border-bottom: solid 1.5px black;
 }
 
-.link {
+.main {
+	justify-content: center;
+}
+
+#link {
 	display: inline;
 	color: black;
 	text-decoration: none;
@@ -45,10 +45,14 @@ body {
 	list-style-type: none;
 }
 
-.link:hover {
+#link:hover {
 	text-shadow: 2px 2px #adadad;
 }
 
-.home {
-	height: 2000px;
+.footer {
+	height: 5em;
+	width: 50 vw;
+	background-color: #d3d3d3;
+	margin: 3em auto;
 }
+

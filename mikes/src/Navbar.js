@@ -1,19 +1,22 @@
 import React from 'react';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
+
+
+
 const Navbar = () => {
 	return (
 		<div className="navBar">
 			<Router>
-				<Link className="link" to="/">
+				<Link id='link' to="/">
 					Home
 				</Link>
-				<Link className="link" to="/gallery">
+				<Link id='link' to="/gallery">
 					Gallery
 				</Link>
-				<Link className="link" to="/order">
-					Order
+				<Link id='link' to="/shop">
+					Shop
 				</Link>
-				<Link className="link" to="/contact">
+				<Link id='link' to="/contact">
 					Contact Us
 				</Link>
 			</Router>
