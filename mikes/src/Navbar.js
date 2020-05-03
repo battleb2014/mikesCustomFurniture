@@ -3,25 +3,41 @@ import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 
 
-const Navbar = () => {
-	return (
-		<div className="navBar">
-			<Router>
-				<Link id='link' to="/">
-					Home
+class Navbar extends React.Component {
+
+	constructor() {
+		super();
+		this.state = {
+			className: 'link'
+		}
+		this.addActiveClass = this.addActiveClass.bind(this);
+	}
+
+	addActiveClass() {
+		this.setState({ className: 'link, active' });
+	}
+
+
+	render() {
+		return (
+			<div className="navBar" >
+				<Router id='lnk' >
+					<Link className='link' id='link' to="/" onClick={this.addActiveClass}>
+						Home
 				</Link>
-				<Link id='link' to="/gallery">
-					Gallery
+					<Link className='link' id='link' to="/gallery" onClick={this.addActiveClass}>
+						Gallery
 				</Link>
-				<Link id='link' to="/shop">
-					Shop
+					<Link className='link' id='link' to="/shop" onClick={this.addActiveClass}>
+						Shop
 				</Link>
-				<Link id='link' to="/contact">
-					Contact Us
+					<Link className='link' id='link' to="/contact" onClick={this.addActiveClass}>
+						Contact Us
 				</Link>
-			</Router>
-		</div>
-	);
+				</Router>
+			</div>
+		);
+	}
 };
 
 export default Navbar;

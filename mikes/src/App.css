@@ -45,14 +45,47 @@ body {
 	list-style-type: none;
 }
 
-#link:hover {
+.active, #link:hover {
 	text-shadow: 2px 2px #adadad;
+	text-decoration: underline;
+}
+
+label {
+	font-size: large;
+}
+
+input {
+	height: 1.5em;
+	width: 20em;
+}
+
+#message {
+	height: 8em;
+	width: 20em;
+}
+
+.btn {
+	font-size: medium;
+	padding: .5em;
+	border-radius: 5%;
+	box-shadow: 3.5px 7px #969696;
 }
 
 .footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	height: 5em;
-	width: 50 vw;
+	width: 50vw;
 	background-color: #d3d3d3;
 	margin: 3em auto;
 }
 
+.footer a {
+	text-decoration: none;
+	color: red;
+}
+
+.footer a:hover {
+	cursor: pointer;
+}

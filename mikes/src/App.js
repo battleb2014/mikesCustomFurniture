@@ -3,14 +3,17 @@ import Header from './Header';
 import Body from './Body';
 import Footer from './Footer';
 import './App.css';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
 	return (
-		<div className="App">
-			<Header />
-			<Body />
-			<Footer />
-		</div>
+		<BrowserRouter>
+			<div className="App">
+				<Header />
+				<Body />
+				<Footer />
+			</div>
+		</BrowserRouter>
 	)
 }
 
