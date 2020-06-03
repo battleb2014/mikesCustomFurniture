@@ -50,6 +50,20 @@ body {
 	justify-content: center;
 }
 
+.home img {
+	width: 30%;
+	margin: 3em auto;
+}
+
+.gallery h2 {
+	margin-bottom: 4em;
+}
+
+.gallery img {
+	width: 30%;
+	margin: 2em;
+}
+
 label {
 	font-size: large;
 }
