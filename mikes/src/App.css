@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	text-align: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+	background-image: url(./images/background.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.header {
+	width: 100vw;
+	margin: 5em auto;
+}
+
+.navBar {
+	display: inline-flex;
+	margin-top: 2.5em;
+	margin-bottom: 3em;
+	padding: 1em;
+	justify-content: center;
+	width: 50vw;
+	border-top: solid 1.5px black;
+	border-bottom: solid 1.5px black;
+}
+
+#link {
+	display: inline;
+	color: black;
+	text-decoration: none;
+	font-size: large;
+	font-weight: bold;
+	margin: 0 2.5em;
+	list-style-type: none;
+}
+
+.active, #link:hover {
+	text-shadow: 2px 2px #adadad;
+	text-decoration: underline;
+}
+
+.main {
+	justify-content: center;
+}
+
+.home img {
+	width: 30%;
+	margin: 3em auto;
+}
+
+.gallery h2 {
+	margin-bottom: 4em;
+}
+
+.gallery img {
+	width: 30%;
+	margin: 2em;
+}
+
+label {
+	font-size: large;
+}
+
+input {
+	height: 2em;
+	width: 30em;
+	border: solid 1px grey;
+}
+
+#message {
+	height: 8em;
+	width: 30em;
+	resize: none;
+	border: solid 1px grey;
+}
+
+.btn {
+	font-size: medium;
+	padding: .5em;
+	border-radius: 5%;
+	box-shadow: 3.5px 5px #969696;
+}
+
+.btn:hover {
+	cursor: pointer;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 5em;
+	width: 50vw;
+	background-color: #d3d3d3;
+	margin: 8em auto;
+}
+
+.footer a {
+	text-decoration: none;
+	color: red;
+}
+
+.footer a:hover {
+	cursor: pointer;
+}
