@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 
@@ -21,20 +21,18 @@ class Navbar extends React.Component {
 	render() {
 		return (
 			<div className="navBar" >
-				<Router id='lnk' >
-					<Link className='link' id='link' to="/" onClick={this.addActiveClass}>
-						Home
+				<Link className='link' id='link' to="/" >
+					Home
 				</Link>
-					<Link className='link' id='link' to="/gallery" onClick={this.addActiveClass}>
-						Gallery
+				<Link className='link' id='link' to="/gallery" >
+					Gallery
 				</Link>
-					<Link className='link' id='link' to="/shop" onClick={this.addActiveClass}>
-						Shop
+				<Link className='link' id='link' to="/shop" >
+					Shop
 				</Link>
-					<Link className='link' id='link' to="/contact" onClick={this.addActiveClass}>
-						Contact Us
+				<Link className='link' id='link' to="/contact" >
+					Contact Us
 				</Link>
-				</Router>
 			</div>
 		);
 	}
