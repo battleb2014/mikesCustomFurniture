@@ -1,0 +1,27 @@
+{
+  "name": "mikesCustomFurniture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "service.js",
+  "scripts": {
+    "start": "node service.js",
+    "server": "nodemon service.js",
+    "client": "npm run start --prefix mike",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/battleb2014/mikes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/battleb2014/mikes/issues"
+  },
+  "homepage": "https://github.com/battleb2014/mikes#readme",
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "react-router-dom": "^5.2.0"
+  }
+}
