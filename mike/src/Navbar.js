@@ -33,6 +33,7 @@ class Navbar extends React.Component {
 				<Link className='link' id='link' to="/contact" >
 					Contact Us
 				</Link>
+				<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 			</div>
 		);
 	}

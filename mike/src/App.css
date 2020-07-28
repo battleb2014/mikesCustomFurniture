@@ -114,3 +114,23 @@ input {
 .red {
 	color: red;
 }
+
+/* Chrome/Opera/Safari */
+::-webkit-input-placeholder { 
+	text-align: center;
+  }
+
+  /* Firefox 19+ */
+  ::-moz-placeholder { 
+	text-align: center;
+  }
+
+/* IE 10+ */
+  :-ms-input-placeholder { 
+	text-align: center;
+  }
+
+/* Firefox 18- */
+  :-moz-placeholder { 
+	text-align: center;
+  }
